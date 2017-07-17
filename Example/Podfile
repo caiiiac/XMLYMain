@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XMLYMain_Example' do
+  pod 'XMLYMain', :path => '../'
+
+  target 'XMLYMain_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
